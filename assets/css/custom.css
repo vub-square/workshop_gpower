@@ -1,0 +1,143 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Minimal - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+body {
+  background-color: #003399;
+    font-family: 'Verdana', serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+.title {
+    font-family: Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+	font-color: #003399;
+    color: #003399;
+
+}
+:root {
+  /* Fonts Dancing Script */
+  --text-font-family: Verdana;
+  --text-font-is-google: 1;
+  --text-font-family-fallback: roboto, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, noto, segoe ui, arial;
+  --text-font-base: sans-serif;
+  --header-font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  --header-font-is-google: 1;
+  --header-font-family-fallback: Georgia, serif;
+  --code-font-family: 'Source Code Pro';
+  --code-font-is-google: 1;
+  --base-font-size: 20px;
+  --text-font-size: 1rem;
+  --code-font-size: 0.9rem;
+  --code-inline-font-size: 1em;
+  --header-h1-font-size: 2.75rem;
+  --header-h2-font-size: 2.25rem;
+  --header-h3-font-size: 1.75rem;
+
+  /* Colors */
+  --text-color: #000000;
+  --header-color: #003399;
+  --background-color: #FFFFFF;
+  --link-color: #1381B0;
+  --text-bold-color: #1381B0;
+  --code-highlight-color: rgba(255,255,0,0.5);
+  --inverse-text-color: #FFFFFF;
+  --inverse-background-color: #0066FF;
+  --inverse-header-color: #0066FF;
+  --inverse-link-color: #1381B0;
+  --title-slide-background-color: #003399;
+  --title-slide-text-color: #FFFFFF;
+  --header-background-color: #1381B0;
+  --header-background-text-color: #FFFFFF;
+  --primary: #003399;
+  --secondary: #FF6600;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+
+.title-slide {
+  background-image: url(assets/images/fish.jpg);
+  background-size: cover;
+}
+
+.remark-slide-content {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  background-color: var(--background-color);
+  font-size: 1.2rem;
+  padding: 16px 64px 16px 64px;
+  width: 100%;
+  height: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.remark-code-line {
+ font-size: 1em
+}
+
+.myname {
+ top: -1em;
+ vertical-align: bottom;
+ font-size: 16px;
+}
+.pull-left-70 {
+  float: left;
+  width: 67%;
+}
+.pull-right-30 {
+  float: left;
+  width: 27%;
+}
+.pull-left-60 {
+  float: left;
+  width: 57%;
+}
+.pull-right-40 {
+  float: left;
+  width: 37%;
+}
+.pull-right-60 {
+  float: left;
+  width: 57%;
+}
+.pull-left-40 {
+  float: left;
+  width: 37%;
+}
+.stress-1 {
+ color: var(--primary);
+ font-weight: bold
+}
+.stress-2 {
+ color: var(--secondary);
+ font-weight: bold
+}
+.stress-0 {
+ color: #000000;
+ font-weight: bold
+}
+.remark-slide table:not(.table-unshaded) tr:nth-child(even) {
+  background: #FFFFFF;
+}
+html { overflow: hidden; }
+.mjx-chtml{ font-size: 90% !important; }
